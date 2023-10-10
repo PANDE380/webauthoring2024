@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        body{
+            background-color:blueviolet;
+        }
+        td{
+           font-weight: bold;
+           font-size: x-large;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        button{
+            background-color: red;
+            border-radius: 15px;
+            border-width: 15px;
+            font-weight: bold;
+        }
+        input{
+            border-radius: 10px;
+            border-width: 15px;
+        }
+        select{
+               border-radius: 10px;
+               border-width: 15px;
+        }
+        textarea{
+            border-radius: 10px;
+            border-width: 15px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+            <h1>REGISTRATION FORM</h1>
+
+
+    <form action="contact.php" method="post">
+        <table>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Enter your first name" name="">
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                        User Name:
+                    </td> 
+                    <td>
+                        <input type="text" placeholder="Enter your  username" name="">
+                    </td>
+                    <td>
+                        Other Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Enter your othername" name="">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    E-mail:
+                </td>
+                <td>
+                    <input type="email" placeholder="Enter your e-mail" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    password:
+                </td>
+                <td>
+                    <input type="password" placeholder="Enter your password" name="" maxlength="8">
+                </td>
+                <td>
+                    Confirm password:
+                </td>
+                <td>
+                    <input type="password" placeholder="Confirm your Password" name="" maxlength="8">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <button type="radio" name="Gender">Male</button>
+                    <button type="radio" name="Gender">Female</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone:
+                </td>
+                <td>
+                    <select>
+                        <option>+256</option>
+                        <option>+254</option>
+                        <option>+255</option>
+                        <option>+233</option>
+                        <option>+331</option>
+                        <option>+971</option>
+                    </select>
+                    <input type="phone" placeholder="24536758***" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Comment:
+                </td>
+                <td>
+                    <textarea name="massage" placeholder="Type a message"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Confirm:
+                </td>
+                <td>
+                    <input type="checkbox" placeholder="confirm" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit" name="submit">submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>

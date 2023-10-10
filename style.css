@@ -1,0 +1,17 @@
+body{
+    background-color:lawngreen;
+}
+h1 {
+    color:blue;
+}
+h4 {
+    color:rgb(248, 18, 18);
+}
+body {
+    border: 6px solid black;
+    border-style:dashed;
+    padding-left: 10px;
+}
+img {
+      padding-left: 85%
+}
